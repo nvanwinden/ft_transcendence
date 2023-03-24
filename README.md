@@ -20,7 +20,7 @@ This project is a collaborative effort between [Michelle Jiam](https://github.co
 
 **Security concerns**
 - Any password stored in the database must be **hashed**.
-- The website must be protected against **SQL injections**
+- The website must be protected against **SQL injections**.
 - Implement **server-side validation** for forms and any user input.
 
 **User Account**
