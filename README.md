@@ -1,14 +1,15 @@
 # ft_transcendence
 
-**Codam [42 Network] group project**: this full stack web application offers a real-time multiplayer Pong game with additional features such as chat functionality and a friends system that allows users to connect.
+**Codam [42 Network] group project**: this full stack web application offers a real-time multiplayer Pong game with additional features such as chat functionality and a friends system that allows players to connect.
 
 This project is a collaborative effort between [Michelle Jiam](https://github.com/MichelleJiam), [Niks Hariman](https://github.com/nhariman), [Nilo van Winden](https://github.com/nvanwinden), [Sanne Albreghs](https://github.com/salbregh) and [Swaan Miller](https://github.com/swaan-miller).
 
-**Project requirements**
+## Project requirements
 - The backend must be written in **NestJS**.
-- The frontend must be written in a **TypeScript** framework
+- The frontend must be written in a **TypeScript** framework.
 - The usage of a **PostgreSQL** database is required.
 - The website must be a **single-page application** and the user should be able to use the **back** and **forward** buttons in the browser.
+- The website should be **responsive** and offer the best user experience possible.
 - Launch the application by a single call to `docker-compose up --build`.
 
 **Security concerns**
@@ -22,6 +23,26 @@ This project is a collaborative effort between [Michelle Jiam](https://github.co
 - The user should be able to **add other users as friends** and see their **current status**.
 - **Stats** have to be displayed on the user profile.
 - Each user should have a **match history** including 1v1 games and a **ladder**. Anyone who is logged in should be able to consult it.
+- The user who has created a new channel is automatically set as the **channel owner**
+until they leave it. The channel owner can set a **password** required to access the channel, change
+it, and also remove it. The channel owner is a **channel administrator**. They can set other users as
+administrators. A user who is an administrator of a channel can **kick**, **ban** or **mute** (for a
+limited time) other users, but not the channel owners.
+- The user should be able to **invite other users to play a Pong game** through the chat
+interface.
+- The user should be able to **access other players profiles** through the chat interface.
+
+**Game**
+- Users should be able to play a live Pong game versus another player.
+- There must be a **matchmaking system**: the user can join a queue until they get automatically matched with someone else.
+
+**Chat**
+- The user should be able to create channels (chat rooms) that can be either **public**,
+or **private**, or **protected** by a password.
+- The user should be able to send *direct messages* to other users.
+- The user should be able to **block** other users.
+- The game must be faithful to the original Pong (1972).
+- You must offer some **customization options**.
 
 ### Login page
 <img width="771" alt="Screen Shot 2023-03-23 at 4 40 55 PM" src="https://user-images.githubusercontent.com/58479085/227256681-16d71013-f52f-4be9-b8ef-0ec256b1bede.png">
