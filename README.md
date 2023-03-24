@@ -75,7 +75,8 @@ interface.
 <img width="1315" alt="Screen Shot 2023-03-23 at 4 20 51 PM" src="https://user-images.githubusercontent.com/58479085/227256518-3dcac4d2-1df8-487b-b892-e937c6cb82ab.png">
 
 ### Friends
-<img width="600" alt="Screen Shot 2023-03-23 at 4 43 36 PM" src="https://user-images.githubusercontent.com/58479085/227258095-41069f0b-def2-4f92-92fb-5b69c0d9ce1c.png">
-<img width="600" alt="Screen Shot 2023-03-23 at 4 44 56 PM" src="https://user-images.githubusercontent.com/58479085/227258339-1b1b21e0-7c02-46ed-aefd-4aea55b806d0.png">
-<img width="600" alt="Screen Shot 2023-03-23 at 4 45 23 PM" src="https://user-images.githubusercontent.com/58479085/227258536-c454bd46-4067-4578-8d37-5c0724f1f891.png">
+<img width="1138" alt="Screenshot 2023-03-24 at 11 45 01" src="https://user-images.githubusercontent.com/58479085/227501637-553693fe-68d3-4483-9ef5-fb353c853bc7.png">
+
+### Responsive menu
+<img width="600" alt="Screenshot 2023-03-24 at 11 40 16" src="https://user-images.githubusercontent.com/58479085/227501976-db83da0c-8e87-44d6-ad7a-05b1d363fcba.png">
 
