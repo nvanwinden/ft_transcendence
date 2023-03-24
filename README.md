@@ -1,5 +1,11 @@
 # ft_transcendence
 
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
+![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
 **Codam [42 Network] group project**: this full stack web application offers a real-time multiplayer Pong game with additional features such as chat functionality and a friends system that allows players to connect.
 
 This project is a collaborative effort between [Michelle Jiam](https://github.com/MichelleJiam), [Niks Hariman](https://github.com/nhariman), [Nilo van Winden](https://github.com/nvanwinden), [Sanne Albreghs](https://github.com/salbregh) and [Swaan Miller](https://github.com/swaan-miller).
