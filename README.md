@@ -1,5 +1,28 @@
 # ft_transcendence
 
+**Codam [42 Network] group project**: this full stack web application offers a real-time multiplayer Pong game with additional features such as chat functionality and a friends system that allows users to connect.
+
+This project is a collaborative effort between [Michelle Jiam](https://github.com/MichelleJiam), [Niks Hariman](https://github.com/nhariman), [Nilo van Winden](https://github.com/nvanwinden), [Sanne Albreghs](https://github.com/salbregh) and [Swaan Miller](https://github.com/swaan-miller).
+
+**Project requirements**
+- The backend must be written in **NestJS**.
+- The frontend must be written in a **TypeScript** framework
+- The usage of a **PostgreSQL** database is required.
+- The website must be a **single-page application** and the user should be able to use the **back** and **forward** buttons in the browser.
+- Launch the application by a single call to `docker-compose up --build`.
+
+**Security concerns**
+- Any password stored in the database must be **hashed**.
+- The website must be protected against **SQL injections**
+- Implement **server-side validation** for forms and any user input.
+
+**User Account**
+- The user must login using the **OAuth** system of 42 intranet.
+- The user should be able to choose a **unique name**, **upload an avatar** and enable **two-factor authentication**.
+- The user should be able to **add other users as friends** and see their **current status**.
+- **Stats** have to be displayed on the user profile.
+- Each user should have a **match history** including 1v1 games and a **ladder**. Anyone who is logged in should be able to consult it.
+
 ### Login page
 <img width="771" alt="Screen Shot 2023-03-23 at 4 40 55 PM" src="https://user-images.githubusercontent.com/58479085/227256681-16d71013-f52f-4be9-b8ef-0ec256b1bede.png">
 
