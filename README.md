@@ -23,6 +23,12 @@ This project is a collaborative effort between [Michelle Jiam](https://github.co
 - The user should be able to **add other users as friends** and see their **current status**.
 - **Stats** have to be displayed on the user profile.
 - Each user should have a **match history** including 1v1 games and a **ladder**. Anyone who is logged in should be able to consult it.
+
+**Chat**
+- The user should be able to create channels (chat rooms) that can be either **public**,
+or **private**, or **protected** by a password.
+- The user should be able to send **direct messages* to other users.
+- The user should be able to **block** other users.
 - The user who has created a new channel is automatically set as the **channel owner**
 until they leave it. The channel owner can set a **password** required to access the channel, change
 it, and also remove it. The channel owner is a **channel administrator**. They can set other users as
@@ -35,12 +41,6 @@ interface.
 **Game**
 - Users should be able to play a live Pong game versus another player.
 - There must be a **matchmaking system**: the user can join a queue until they get automatically matched with someone else.
-
-**Chat**
-- The user should be able to create channels (chat rooms) that can be either **public**,
-or **private**, or **protected** by a password.
-- The user should be able to send *direct messages* to other users.
-- The user should be able to **block** other users.
 - The game must be faithful to the original Pong (1972).
 - You must offer some **customization options**.
 
