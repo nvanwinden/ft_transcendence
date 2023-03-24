@@ -27,7 +27,7 @@ This project is a collaborative effort between [Michelle Jiam](https://github.co
 **Chat**
 - The user should be able to create channels (chat rooms) that can be either **public**,
 or **private**, or **protected** by a password.
-- The user should be able to send **direct messages* to other users.
+- The user should be able to send **direct messages** to other users.
 - The user should be able to **block** other users.
 - The user who has created a new channel is automatically set as the **channel owner**
 until they leave it. The channel owner can set a **password** required to access the channel, change
